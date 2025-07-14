@@ -29,7 +29,6 @@ A sleek 3D ring customizer built with **React Three Fiber**, **Three.js**, and *
 * Applies material updates using `material-color` and custom `MeshRefractionMaterial` for gemstones
 * Adds realism with **ambient**, **spot**, and **environmental lighting**
 * Renders **contact shadows** beneath the ring to anchor it visually
-* Styles and repositions UI elements with **CSS media queries** for mobile/tablet/desktop support
 
 ---
 
