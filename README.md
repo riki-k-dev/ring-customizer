@@ -2,7 +2,7 @@
 
 A sleek 3D ring customizer built with **React Three Fiber**, **Three.js**, and **Valtio**. Features real-time part selection, live color customization via a **color picker**, dynamic floating animation, and responsive design. Includes interactive **cursor feedback**, **HDR lighting**, and realistic **contact shadows** for a polished WebGL experience.
 
-[![Hero Screenshot](public/heropage.png)](https://your-ring-configurator-link.com)
+[![Hero Screenshot](public/heropage.png)](https://ring-customizer-psi.vercel.app/)
 
 ---
 
@@ -47,7 +47,7 @@ A sleek 3D ring customizer built with **React Three Fiber**, **Three.js**, and *
 ## 🚀 Getting Started
 
 ```bash
-git clone https://github.com/your-username/ring-configurator.git
+git clone https://github.com/its-riki-dev/ring-customizer.git
 
 # Navigate into the project folder
 cd ring-configurator
