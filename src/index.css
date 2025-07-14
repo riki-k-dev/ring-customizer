@@ -1,0 +1,94 @@
+@import url("https://rsms.me/inter/inter.css");
+
+html,
+body,
+#root {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  outline: none;
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  background: white;
+  font-family: "Inter var", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+#root {
+  width: 100%;
+}
+
+h1 {
+  position: absolute;
+  top: 80px;
+  left: 52vh;
+  padding: 0;
+  margin: 40px;
+  font-size: 5em;
+  line-height: 0.7em;
+  letter-spacing: -4px;
+  color: #272730;
+}
+
+.picker {
+  position: absolute !important;
+  top: 90px;
+  left: 40vh;
+  width: 130px !important;
+  height: 130px !important;
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 3.5em;
+    margin: 5px;
+    top: 60px;
+    left: 37%;
+    letter-spacing: -3px;
+  }
+
+  .picker {
+    width: 90px !important;
+    height: 90px !important;
+    top: 40px;
+    left: 10% !important;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+  h1 {
+    font-size: 4.2em;
+    top: 100px;
+    left: 35%;
+    margin: 20px;
+    letter-spacing: -3.5px;
+  }
+
+  .picker {
+    width: 120px !important;
+    height: 120px !important;
+    top: 100px;
+    left: 20% !important;
+  }
+}
+
+@media (min-width: 1600px) {
+  h1 {
+    font-size: 6em;
+    top: 190px;
+    left: 52vh;
+    letter-spacing: -4px;
+  }
+
+  .picker {
+    width: 150px !important;
+    height: 150px !important;
+    top: 190px;
+    left: 42vh !important;
+  }
+}
